@@ -1,0 +1,79 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: #1A1A12;
+}
+
+section {
+  padding-top: 90px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h2 {
+    padding-bottom: 40px;
+}
+
+/* 56px */
+.customNav {
+    position: fixed;
+    width: 100%;
+    height: 76px;
+    top: 0;
+    background-color:  #c57ff3 !important;
+    z-index: 1;
+    /* font-size: ; */
+}
+
+.customNav > div {
+    background-color:  #c57ff3 !important;
+
+}
+
+.navbar-collapse  {
+    background-color:  #c57ff3 !important;
+}
+
+.nav-item {
+    border-bottom: 1px solid #1A1A12;
+}
+
+.jumbo {
+    background-color: #1A1A12 !important; 
+    background-image: url("../images/colourful-banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 0 !important;
+    display: flex;
+    align-items: center;
+}
+
+.jumbo > div {
+    /* align-items: center;*/
+} 
+
+.jumbo > div > div{
+    background-color: rgba(28, 28, 18, 0.8) !important; 
+    border-radius: 5px;
+    /* width: 900px; */
+}
+
+.jumbo a {
+    text-decoration: none;
+}
+
+/* #skills > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+} */
+
+.skill-col {
+    border: 4px solid #c57ff3;
+    border-radius: 5px;
+}
