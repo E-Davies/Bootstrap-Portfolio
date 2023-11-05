@@ -72,6 +72,8 @@ section h2 {
     border-radius: 0 !important;
     display: flex;
     align-items: center;
+    position: relative;
+    top: 76px;
 }
 
 .jumbo > div > div {
@@ -186,6 +188,7 @@ footer div > a > i:hover {
 
 @media only screen and (max-width: 576px) {
     .jumbo > div > div {
-        min-width: 400px;
+        min-width: 350px;
+        transform: scale(0.8);
     }
 }
