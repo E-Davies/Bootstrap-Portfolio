@@ -192,7 +192,7 @@ footer div > a > i:hover {
 }
 
     .jumbo > div > div {
-        min-width: 350px;
-        transform: scale(0.8);
+        min-width: 380px;
+        transform: scale(0.9);
     }
 }
