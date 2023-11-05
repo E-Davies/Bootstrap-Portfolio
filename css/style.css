@@ -26,7 +26,6 @@ section h2 {
 
 /* -----------------------------------Nav Bar------------------------------------------------------ */
 
-/* nav height is 56px */
 .customNav {
     position: fixed;
     width: 100%;
@@ -172,13 +171,13 @@ footer div {
     justify-content: center;
 }
 
-footer div > a > i {
+footer i {
     margin: 20px;
     justify-content: center;
     font-size: 30px;
 }
 
-footer div > a > i:hover {
+footer i:hover {
     transform: scale(1.3);
     background-image: linear-gradient(to bottom right, var(--main-color) 85%, var(--main-color-shadow) 15%);
     box-shadow: 15px 15px 15px var(--main-color-shadow);
