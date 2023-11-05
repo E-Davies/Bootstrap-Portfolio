@@ -181,3 +181,11 @@ footer div > a > i:hover {
     background-image: linear-gradient(to bottom right, var(--main-color) 85%, var(--main-color-shadow) 15%);
     box-shadow: 15px 15px 15px var(--main-color-shadow);
 }
+
+/* -----------------------------------Media Query------------------------------------------------------ */
+
+@media only screen and (max-width: 576px) {
+    .jumbo > div > div {
+        min-width: 400px;
+    }
+}
