@@ -45,13 +45,14 @@ section h2 {
 }
 
 .nav-link {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-right: 1rem;
     border-bottom: 1px solid #1A1A12;
 }
 
 .nav-link:hover, .navbar-brand:hover {
     color: white !important;
+    border-color: white;
 }
 
 
@@ -79,6 +80,9 @@ section h2 {
 
 
 /* -----------------------------------Skills------------------------------------------------------ */
+#skills > h2 {
+    padding-bottom: 80px;
+}
 
 #skills > div > div {
    font-size: 1.5rem;
@@ -96,6 +100,15 @@ section h2 {
     border-color: #1A1A12;
     min-height: 36rem;
     border: 4px solid #c57ff3;
+}
+
+.card img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card a:hover {
+    box-shadow: 15px 5px 15px rgba(123, 78, 152, 0.6);
 }
 
 .card p {
@@ -160,5 +173,6 @@ footer div > a > i {
 
 footer div > a > i:hover {
     transform: scale(1.3);
+    background-image: linear-gradient(to bottom right, rgb(198, 129, 243) 85%, rgba(123, 78, 152, 0.6) 15%);
     box-shadow: 15px 15px 15px rgba(123, 78, 152, 0.6);
 }
