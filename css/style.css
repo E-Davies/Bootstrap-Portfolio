@@ -191,8 +191,17 @@ footer div > a > i:hover {
     padding-left: 5px !important;
 }
 
-    .jumbo > div > div {
-        min-width: 380px;
-        transform: scale(0.9);
-    }
+.jumbo > div > div {
+    min-width: 380px;
+    transform: scale(0.9);
+}
+
+#skills > h2 {
+    padding-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 5px !important;
+}
+
 }
