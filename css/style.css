@@ -68,7 +68,7 @@ section h2 {
     background-image: url("../images/colourful-banner3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: calc(100vh - 76px);
     border-radius: 0 !important;
     display: flex;
     align-items: center;
@@ -187,8 +187,12 @@ footer div > a > i:hover {
 /* -----------------------------------Media Query------------------------------------------------------ */
 
 @media only screen and (max-width: 576px) {
+.jumbo {
+    padding-left: 5px !important;
+}
+
     .jumbo > div > div {
         min-width: 350px;
-        transform: scale(0.8);
+        transform: scale(0.7);
     }
 }
