@@ -202,7 +202,7 @@ footer i:hover {
 
 .jumbo > div > div {
     min-width: 380px;
-    transform: scale(0.9);
+    transform: scale(0.7);
 }
 
 
@@ -219,6 +219,7 @@ footer i:hover {
 @media only screen and (max-width: 992px){
     .jumbo > div > div {
         text-align: center;
+        transform: scale(0.8);
     }
 }
 
