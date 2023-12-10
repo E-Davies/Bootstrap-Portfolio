@@ -26,3 +26,9 @@ Please use the following link to access the website: https://e-davies.github.io/
 ## Usage
 
 This website will be used by employers looking to hire and allow them to discover my ability and skills as a front-end developer.
+
+## Technical skills used in this project
+
+* HTML
+* CSS
+* Bootstrap
